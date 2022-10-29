@@ -1,0 +1,2 @@
+# bin/bash
+wget https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs1000/ghostpdl-10.0.0.tar.gz && tar -xf ghostpdl-10.0.0.tar.gz && cd ghostpdl-10.0.0 && bash configure && make -j16 

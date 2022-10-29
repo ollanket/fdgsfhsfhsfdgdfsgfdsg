@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+    mqttbroker:
+        image: eclipse-mosquitto:latest
+        volumes:
+            - ./mqttconfig:/mosquitto
+        ports:
+            - 18083:18083
+            - 1883:1883

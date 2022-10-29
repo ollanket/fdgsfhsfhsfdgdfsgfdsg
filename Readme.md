@@ -1,1 +1,3 @@
--   Run `python3 setup.py` to download and compile ghostpdl
+-   Run `bash setup.sh` to download and compile ghostpdl
+-   create and activate virtual env `python3 -m venv env` && `source env/bin/activate`
+-   install deps `pip install -r requirements.txt`
