@@ -1,0 +1,1 @@
+-   Run `python3 setup.py` to download and compile ghostpdl
