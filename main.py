@@ -3,7 +3,7 @@ import paho.mqtt.client as mqtt
 import logging
 
 def on_connect(client, userdata, flags, rc):
-  logging.log(f"Connected with result code {rc}")
+  logging.debug(f"Connected with result code {rc}")
   client.subscribe("$PRINT/#")
 
 def on_message(client, userdata, msg):
